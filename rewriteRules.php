@@ -6,4 +6,5 @@ return [
     'src/registration.php' => 'src/registration.php',
     'src/Facades/MyPackage.php' => 'src/Facades/:uc:package.php',
     'src/Providers/MyPackageServiceProvider.php' => 'src/Providers/:uc:packageServiceProvider.php',
+    'src/Http/Controllers/Index/Index.php' => 'src/Http/Controllers/Index/Index.php',
 ];
