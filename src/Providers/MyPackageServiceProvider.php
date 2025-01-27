@@ -5,6 +5,7 @@ namespace :uc:vendor\:uc:package\Providers;
 use JackJack\Framework\Providers\ModuleServiceProvider;
 
 class :uc:packageServiceProvider extends ModuleServiceProvider
+{
 
     /**
      * @var null|string
