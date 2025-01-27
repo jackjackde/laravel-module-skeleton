@@ -35,7 +35,8 @@
             ],
             "aliases": {
                 ":uc:package": ":uc:vendor\\:uc:package\\Facades\\:uc:package"
-            }
+            },
+            "module": true
         }
     }
 }
