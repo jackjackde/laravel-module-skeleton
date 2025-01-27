@@ -1,8 +1,8 @@
 <?php
 
-namespace :uc:vendor\:uc:package;
+namespace :uc:vendor\:uc:package\Providers;
 
-use JackJack\Accounts\Providers\EventServiceProvider;use JackJack\Framework\Providers\ModuleServiceProvider;
+use JackJack\Framework\Providers\ModuleServiceProvider;
 
 class :uc:packageServiceProvider extends ModuleServiceProvider
 
