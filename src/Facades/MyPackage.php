@@ -4,6 +4,9 @@ namespace :uc:vendor\:uc:package\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
+/**
+ * @mixin \:uc:vendor\:uc:package\:uc:package
+ */
 class :uc:package extends Facade
 {
     /**
