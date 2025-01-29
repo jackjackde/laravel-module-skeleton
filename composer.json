@@ -1,5 +1,5 @@
 {
-    "name": ":lc:vendor/:lc:package",
+    "name": ":lc:vendor/module-:lc:package",
     "description": ":package_description",
     "license": ":license",
     "authors": [
@@ -20,8 +20,11 @@
     },
     "autoload": {
         "psr-4": {
-            ":uc:vendor\\:uc:package\\": "src/"
-        }
+            ":uc:vendor\\:uc:package\\": ""
+        },
+        "files":[
+            "registration.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
